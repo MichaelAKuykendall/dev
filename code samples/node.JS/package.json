@@ -1,0 +1,15 @@
+{
+  "name": "tenable_routes",
+  "version": "1.0.0",
+  "description": "RESTful routing for Tenable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "express": "3.x"
+  },
+  "author": "Mike Kuykendall",
+  "license": "ISC"
+}

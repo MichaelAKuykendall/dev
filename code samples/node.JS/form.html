@@ -1,0 +1,66 @@
+<html>
+<head>
+    <style>
+        div {
+            margin: 5px auto;
+        }
+        form {
+            margin: 40px 20px;
+        }
+        input {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+<form action="http://localhost:3000/add" method="post">
+    <div><strong>ADD CONFIGURATION</strong></div>
+    <div>
+        <label><strong>User:</strong></label>
+        <input type="text" name="user"/>
+    </div>
+    <div>
+        <label><strong>Password:</strong></label>
+        <input type="password" name="password"/>
+    </div>
+    <div>
+        <label>Name:</label>
+        <input type="text" name="name"/>
+    </div>
+    <div>
+        <label>Hostname:</label>
+        <input type="text" name="hostname"/>
+    </div>
+    <div>
+        <label>Port:</label>
+        <input type="text" name="port"/>
+    </div>
+    <div>
+        <label>Username:</label>
+        <input type="text" name="username"/>
+    </div>
+    <div>
+        <input type="submit" value="Add config"/>
+    </div>
+</form>
+
+<form action="http://localhost:3000/delete" method="post">
+    <div><strong>DELETE CONFIGURATION by NAME</strong></div>
+    <div>
+        <label><strong>User:</strong></label>
+        <input type="text" name="user"/>
+    </div>
+    <div>
+        <label><strong>Password:</strong></label>
+        <input type="password" name="password"/>
+    </div>
+    <div>
+        <label>Name:</label>
+        <input type="text" name="name"/>
+    </div>
+    <div>
+        <input type="submit" value="Delete config"/>
+    </div>
+</form>
+</html>
+</body>
