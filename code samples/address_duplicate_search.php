@@ -1,6 +1,6 @@
 <?php
 /**
- * Searches FLS locations for duplicates
+ * Searches STORE locations for duplicates
  * Author: Mike Kuykendall
  * Date: 5/19/15
  * Time: 4:16 PM
